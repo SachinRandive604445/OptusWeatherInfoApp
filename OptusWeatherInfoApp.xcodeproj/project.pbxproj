@@ -26,6 +26,13 @@
 		03AA97782591C61C0017A522 /* AddNewCityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97752591C61C0017A522 /* AddNewCityTableCell.swift */; };
 		03AA97792591C61C0017A522 /* DetailWeatherInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97762591C61C0017A522 /* DetailWeatherInfoCell.swift */; };
 		03AA977A2591C61C0017A522 /* WeatherInfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97772591C61C0017A522 /* WeatherInfoTableCell.swift */; };
+		03AA977E2591C75E0017A522 /* citylist.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AA977C2591C75E0017A522 /* citylist.json */; };
+		03AA977F2591C75E0017A522 /* citySeachUITesting.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AA977D2591C75E0017A522 /* citySeachUITesting.json */; };
+		03AA97862591C7BC0017A522 /* NewCityInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97832591C7BB0017A522 /* NewCityInfoViewModel.swift */; };
+		03AA97872591C7BC0017A522 /* DetailInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97842591C7BC0017A522 /* DetailInfoViewModel.swift */; };
+		03AA97882591C7BC0017A522 /* WeatherInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97852591C7BC0017A522 /* WeatherInfoViewModel.swift */; };
+		03AA978B2591C7D00017A522 /* DetailInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97892591C7D00017A522 /* DetailInfoModel.swift */; };
+		03AA978C2591C7D00017A522 /* WeatherInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA978A2591C7D00017A522 /* WeatherInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +78,13 @@
 		03AA97752591C61C0017A522 /* AddNewCityTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCityTableCell.swift; sourceTree = "<group>"; };
 		03AA97762591C61C0017A522 /* DetailWeatherInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailWeatherInfoCell.swift; sourceTree = "<group>"; };
 		03AA97772591C61C0017A522 /* WeatherInfoTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoTableCell.swift; sourceTree = "<group>"; };
+		03AA977C2591C75E0017A522 /* citylist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citylist.json; sourceTree = "<group>"; };
+		03AA977D2591C75E0017A522 /* citySeachUITesting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citySeachUITesting.json; sourceTree = "<group>"; };
+		03AA97832591C7BB0017A522 /* NewCityInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCityInfoViewModel.swift; sourceTree = "<group>"; };
+		03AA97842591C7BC0017A522 /* DetailInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInfoViewModel.swift; sourceTree = "<group>"; };
+		03AA97852591C7BC0017A522 /* WeatherInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoViewModel.swift; sourceTree = "<group>"; };
+		03AA97892591C7D00017A522 /* DetailInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInfoModel.swift; sourceTree = "<group>"; };
+		03AA978A2591C7D00017A522 /* WeatherInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +137,13 @@
 			children = (
 				03AA972D2591C4BD0017A522 /* AppDelegate.swift */,
 				03AA972F2591C4BD0017A522 /* SceneDelegate.swift */,
+				03AA97822591C7950017A522 /* Model */,
+				03AA97812591C7840017A522 /* View */,
+				03AA97802591C7740017A522 /* ViewModel */,
 				03AA976B2591C5E00017A522 /* Controller */,
 				03AA97662591C5A90017A522 /* Services */,
 				03AA975D2591C5740017A522 /* Utility */,
+				03AA977B2591C7490017A522 /* LocalJSON */,
 				03AA97332591C4BD0017A522 /* Main.storyboard */,
 				03AA97362591C4BF0017A522 /* Assets.xcassets */,
 				03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */,
@@ -191,6 +209,41 @@
 				03AA97772591C61C0017A522 /* WeatherInfoTableCell.swift */,
 			);
 			path = tableCell;
+			sourceTree = "<group>";
+		};
+		03AA977B2591C7490017A522 /* LocalJSON */ = {
+			isa = PBXGroup;
+			children = (
+				03AA977C2591C75E0017A522 /* citylist.json */,
+				03AA977D2591C75E0017A522 /* citySeachUITesting.json */,
+			);
+			path = LocalJSON;
+			sourceTree = "<group>";
+		};
+		03AA97802591C7740017A522 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03AA97842591C7BC0017A522 /* DetailInfoViewModel.swift */,
+				03AA97832591C7BB0017A522 /* NewCityInfoViewModel.swift */,
+				03AA97852591C7BC0017A522 /* WeatherInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03AA97812591C7840017A522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03AA97822591C7950017A522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03AA97892591C7D00017A522 /* DetailInfoModel.swift */,
+				03AA978A2591C7D00017A522 /* WeatherInfoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +352,8 @@
 			files = (
 				03AA973A2591C4BF0017A522 /* LaunchScreen.storyboard in Resources */,
 				03AA97372591C4BF0017A522 /* Assets.xcassets in Resources */,
+				03AA977F2591C75E0017A522 /* citySeachUITesting.json in Resources */,
+				03AA977E2591C75E0017A522 /* citylist.json in Resources */,
 				03AA97352591C4BD0017A522 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AA978B2591C7D00017A522 /* DetailInfoModel.swift in Sources */,
+				03AA978C2591C7D00017A522 /* WeatherInfoModel.swift in Sources */,
 				03AA976A2591C5C60017A522 /* DatabaseManager.swift in Sources */,
 				03AA97722591C5F10017A522 /* WeatherInfoListViewController.swift in Sources */,
 				03AA972E2591C4BD0017A522 /* AppDelegate.swift in Sources */,
@@ -336,8 +393,11 @@
 				03AA977A2591C61C0017A522 /* WeatherInfoTableCell.swift in Sources */,
 				03AA97782591C61C0017A522 /* AddNewCityTableCell.swift in Sources */,
 				03AA97692591C5C60017A522 /* ServiceManager.swift in Sources */,
+				03AA97882591C7BC0017A522 /* WeatherInfoViewModel.swift in Sources */,
 				03AA97632591C5990017A522 /* OWConstants.swift in Sources */,
 				03AA97732591C5F10017A522 /* AddNewCityInfoViewController.swift in Sources */,
+				03AA97862591C7BC0017A522 /* NewCityInfoViewModel.swift in Sources */,
+				03AA97872591C7BC0017A522 /* DetailInfoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -496,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -512,6 +572,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OptusWeatherInfoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,6 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OptusWeatherInfoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
