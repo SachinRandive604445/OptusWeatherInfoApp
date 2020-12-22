@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		03AA97302591C4BD0017A522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA972F2591C4BD0017A522 /* SceneDelegate.swift */; };
 		03AA97352591C4BD0017A522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97332591C4BD0017A522 /* Main.storyboard */; };
 		03AA97372591C4BF0017A522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97362591C4BF0017A522 /* Assets.xcassets */; };
-		03AA973A2591C4BF0017A522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */; };
 		03AA97452591C4BF0017A522 /* OptusWeatherInfoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97442591C4BF0017A522 /* OptusWeatherInfoAppTests.swift */; };
 		03AA97502591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA974F2591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift */; };
 		03AA97622591C5990017A522 /* OWAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA975E2591C5990017A522 /* OWAppConfig.swift */; };
@@ -33,6 +32,11 @@
 		03AA97882591C7BC0017A522 /* WeatherInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97852591C7BC0017A522 /* WeatherInfoViewModel.swift */; };
 		03AA978B2591C7D00017A522 /* DetailInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97892591C7D00017A522 /* DetailInfoModel.swift */; };
 		03AA978C2591C7D00017A522 /* WeatherInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA978A2591C7D00017A522 /* WeatherInfoModel.swift */; };
+		03AA97902591CF4D0017A522 /* CitySerachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA978F2591CF4D0017A522 /* CitySerachTests.swift */; };
+		03AA97922591D1570017A522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97912591D1570017A522 /* LaunchScreen.storyboard */; };
+		953F73CAD9743CFAB4FBBCEF /* Pods_OptusWeatherInfoApp_OptusWeatherInfoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509E42EE339794AA66256B4 /* Pods_OptusWeatherInfoApp_OptusWeatherInfoAppUITests.framework */; };
+		A47436310DE57E8DC765257D /* Pods_OptusWeatherInfoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB10FA5FE65FAAF926279EE /* Pods_OptusWeatherInfoApp.framework */; };
+		E38DF705A6B9B2403938168A /* Pods_OptusWeatherInfoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D7E4A79E907156AFF8EA50 /* Pods_OptusWeatherInfoAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +62,6 @@
 		03AA972F2591C4BD0017A522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03AA97342591C4BD0017A522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03AA97362591C4BF0017A522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03AA97392591C4BF0017A522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03AA973B2591C4BF0017A522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03AA97402591C4BF0017A522 /* OptusWeatherInfoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptusWeatherInfoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AA97442591C4BF0017A522 /* OptusWeatherInfoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptusWeatherInfoAppTests.swift; sourceTree = "<group>"; };
@@ -85,6 +88,17 @@
 		03AA97852591C7BC0017A522 /* WeatherInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoViewModel.swift; sourceTree = "<group>"; };
 		03AA97892591C7D00017A522 /* DetailInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInfoModel.swift; sourceTree = "<group>"; };
 		03AA978A2591C7D00017A522 /* WeatherInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoModel.swift; sourceTree = "<group>"; };
+		03AA978F2591CF4D0017A522 /* CitySerachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySerachTests.swift; sourceTree = "<group>"; };
+		03AA97912591D1570017A522 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AB10FA5FE65FAAF926279EE /* Pods_OptusWeatherInfoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptusWeatherInfoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64691B75FC84948D0C220E22 /* Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF34BE257536DC7659419242 /* Pods-OptusWeatherInfoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptusWeatherInfoApp.debug.xcconfig"; path = "Target Support Files/Pods-OptusWeatherInfoApp/Pods-OptusWeatherInfoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CB560B35036D6138314DC5EF /* Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6480D4E00AA9464DCD33611 /* Pods-OptusWeatherInfoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptusWeatherInfoApp.release.xcconfig"; path = "Target Support Files/Pods-OptusWeatherInfoApp/Pods-OptusWeatherInfoApp.release.xcconfig"; sourceTree = "<group>"; };
+		D6D7E4A79E907156AFF8EA50 /* Pods_OptusWeatherInfoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptusWeatherInfoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C69F4C0D0528CBF5C602EE /* Pods-OptusWeatherInfoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptusWeatherInfoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-OptusWeatherInfoAppTests/Pods-OptusWeatherInfoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E175930132AACD5B5AC53F6B /* Pods-OptusWeatherInfoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptusWeatherInfoAppTests.release.xcconfig"; path = "Target Support Files/Pods-OptusWeatherInfoAppTests/Pods-OptusWeatherInfoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F509E42EE339794AA66256B4 /* Pods_OptusWeatherInfoApp_OptusWeatherInfoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptusWeatherInfoApp_OptusWeatherInfoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47436310DE57E8DC765257D /* Pods_OptusWeatherInfoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38DF705A6B9B2403938168A /* Pods_OptusWeatherInfoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953F73CAD9743CFAB4FBBCEF /* Pods_OptusWeatherInfoApp_OptusWeatherInfoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +136,8 @@
 				03AA97432591C4BF0017A522 /* OptusWeatherInfoAppTests */,
 				03AA974E2591C4BF0017A522 /* OptusWeatherInfoAppUITests */,
 				03AA972B2591C4BD0017A522 /* Products */,
+				2CA55CB464E5811BB2A72E51 /* Pods */,
+				241E9FF555FF12CB84D43BB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				03AA97442591C4BF0017A522 /* OptusWeatherInfoAppTests.swift */,
+				03AA978F2591CF4D0017A522 /* CitySerachTests.swift */,
 				03AA97462591C4BF0017A522 /* Info.plist */,
 			);
 			path = OptusWeatherInfoAppTests;
@@ -232,7 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				03AA97332591C4BD0017A522 /* Main.storyboard */,
-				03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */,
+				03AA97912591D1570017A522 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,6 +266,29 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		241E9FF555FF12CB84D43BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB10FA5FE65FAAF926279EE /* Pods_OptusWeatherInfoApp.framework */,
+				F509E42EE339794AA66256B4 /* Pods_OptusWeatherInfoApp_OptusWeatherInfoAppUITests.framework */,
+				D6D7E4A79E907156AFF8EA50 /* Pods_OptusWeatherInfoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CA55CB464E5811BB2A72E51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF34BE257536DC7659419242 /* Pods-OptusWeatherInfoApp.debug.xcconfig */,
+				D6480D4E00AA9464DCD33611 /* Pods-OptusWeatherInfoApp.release.xcconfig */,
+				CB560B35036D6138314DC5EF /* Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.debug.xcconfig */,
+				64691B75FC84948D0C220E22 /* Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.release.xcconfig */,
+				E0C69F4C0D0528CBF5C602EE /* Pods-OptusWeatherInfoAppTests.debug.xcconfig */,
+				E175930132AACD5B5AC53F6B /* Pods-OptusWeatherInfoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03AA97542591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoApp" */;
 			buildPhases = (
+				46E6620B60B91C396F109F1C /* [CP] Check Pods Manifest.lock */,
 				03AA97262591C4BD0017A522 /* Sources */,
 				03AA97272591C4BD0017A522 /* Frameworks */,
 				03AA97282591C4BD0017A522 /* Resources */,
+				1EE6A6029FD6D133A8BBE649 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03AA97572591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoAppTests" */;
 			buildPhases = (
+				F1EB3CCD316B6C9A0E3DA551 /* [CP] Check Pods Manifest.lock */,
 				03AA973C2591C4BF0017A522 /* Sources */,
 				03AA973D2591C4BF0017A522 /* Frameworks */,
 				03AA973E2591C4BF0017A522 /* Resources */,
@@ -288,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03AA975A2591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoAppUITests" */;
 			buildPhases = (
+				359F5263BAED43F406A46AEE /* [CP] Check Pods Manifest.lock */,
 				03AA97472591C4BF0017A522 /* Sources */,
 				03AA97482591C4BF0017A522 /* Frameworks */,
 				03AA97492591C4BF0017A522 /* Resources */,
+				ED3F8279436A95E39B93165F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -350,9 +398,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03AA973A2591C4BF0017A522 /* LaunchScreen.storyboard in Resources */,
 				03AA97372591C4BF0017A522 /* Assets.xcassets in Resources */,
 				03AA977F2591C75E0017A522 /* citySeachUITesting.json in Resources */,
+				03AA97922591D1570017A522 /* LaunchScreen.storyboard in Resources */,
 				03AA977E2591C75E0017A522 /* citylist.json in Resources */,
 				03AA97352591C4BD0017A522 /* Main.storyboard in Resources */,
 			);
@@ -373,6 +421,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE6A6029FD6D133A8BBE649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptusWeatherInfoApp/Pods-OptusWeatherInfoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptusWeatherInfoApp/Pods-OptusWeatherInfoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OptusWeatherInfoApp/Pods-OptusWeatherInfoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		359F5263BAED43F406A46AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E6620B60B91C396F109F1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptusWeatherInfoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED3F8279436A95E39B93165F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests/Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EB3CCD316B6C9A0E3DA551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptusWeatherInfoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03AA97262591C4BD0017A522 /* Sources */ = {
@@ -405,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AA97902591CF4D0017A522 /* CitySerachTests.swift in Sources */,
 				03AA97452591C4BF0017A522 /* OptusWeatherInfoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,14 +591,6 @@
 				03AA97342591C4BD0017A522 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03AA97392591C4BF0017A522 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -568,6 +712,7 @@
 		};
 		03AA97552591C4BF0017A522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF34BE257536DC7659419242 /* Pods-OptusWeatherInfoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -586,6 +731,7 @@
 		};
 		03AA97562591C4BF0017A522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6480D4E00AA9464DCD33611 /* Pods-OptusWeatherInfoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +750,7 @@
 		};
 		03AA97582591C4BF0017A522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C69F4C0D0528CBF5C602EE /* Pods-OptusWeatherInfoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -625,6 +772,7 @@
 		};
 		03AA97592591C4BF0017A522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E175930132AACD5B5AC53F6B /* Pods-OptusWeatherInfoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,6 +794,7 @@
 		};
 		03AA975B2591C4BF0017A522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB560B35036D6138314DC5EF /* Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -665,6 +814,7 @@
 		};
 		03AA975C2591C4BF0017A522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64691B75FC84948D0C220E22 /* Pods-OptusWeatherInfoApp-OptusWeatherInfoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

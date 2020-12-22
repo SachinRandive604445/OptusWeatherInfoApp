@@ -9,35 +9,62 @@
 import XCTest
 
 class OptusWeatherInfoAppUITests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
-                XCUIApplication().launch()
-            }
-        }
-    }
+   var app: XCUIApplication!
+   override func setUp() {
+       continueAfterFailure = false
+       app = XCUIApplication()
+       app.launch()
+   }
+   
+   override func tearDown() {
+       // Put teardown code here. This method is called after the invocation of each test method in the class.
+   }
+   
+   func testForCellExistence() {
+       let detailstable = app.tables.matching(identifier: "table--cityWeatherTableView")
+       let firstCell = detailstable.cells.element(matching: .cell, identifier: "myCell_0")
+       let existencePredicate = NSPredicate(format: "exists == 1")
+       let expectationEval = expectation(for: existencePredicate, evaluatedWith: firstCell, handler: nil)
+       let mobWaiter = XCTWaiter.wait(for: [expectationEval], timeout: 10.0)
+       XCTAssert(XCTWaiter.Result.completed == mobWaiter, "Test Case Failed.")
+       firstCell.tap()
+   }
+   
+   func testTableInteraction() {
+       // Assert that we are displaying the tableview
+       let mainTableView = app.tables["table--cityWeatherTableView"]
+       XCTAssertTrue(mainTableView.exists, "The main tableview exists")
+       // Get an array of cells
+       let tableCells = mainTableView.cells
+       if tableCells.count > 0 {
+           let count: Int = (tableCells.count - 1)
+           let promise = expectation(description: "Wait for table cells")
+           for i in stride(from: 0, to: count , by: 1) {
+               if i == (count - 1) {
+                   promise.fulfill()
+               }
+           }
+           waitForExpectations(timeout: 20, handler: nil)
+           XCTAssertTrue(true, "Finished validating the table cells")
+           
+       } else {
+           XCTAssert(false, "Was not able to find any table cells")
+       }
+   }
+   
+   //MARK :- add New city  UI testing Start here.
+   /* #################################################################################
+   //MARK:- NOTE : For Below UI tesing, Please change the citylist.json files to citySeachUITesting.json in NewCityInfoViewModel.getCityList() function
+      ################################################################################# */
+   
+   func test_AddNewRecordPage_SearchCity() {
+       let app = XCUIApplication()
+       app.navigationBars["Weather Report"].buttons["addNewCityBtn"].tap()
+       let enterCityNameSearchField = app/*@START_MENU_TOKEN@*/.searchFields["Enter City Name"]/*[[".otherElements[\"AddNewCity_Dashboard\"].searchFields[\"Enter City Name\"]",".searchFields[\"Enter City Name\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+       enterCityNameSearchField.tap()
+       enterCityNameSearchField.typeText("Kashm")
+       app.tables.staticTexts["Kashmar"].tap()
+       app.alerts["Success"].scrollViews.otherElements.buttons["OK"].tap()
+   }
+    
 }
