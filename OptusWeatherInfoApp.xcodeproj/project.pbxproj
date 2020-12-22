@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		03AA972E2591C4BD0017A522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA972D2591C4BD0017A522 /* AppDelegate.swift */; };
 		03AA97302591C4BD0017A522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA972F2591C4BD0017A522 /* SceneDelegate.swift */; };
-		03AA97322591C4BD0017A522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97312591C4BD0017A522 /* ViewController.swift */; };
 		03AA97352591C4BD0017A522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97332591C4BD0017A522 /* Main.storyboard */; };
 		03AA97372591C4BF0017A522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97362591C4BF0017A522 /* Assets.xcassets */; };
 		03AA973A2591C4BF0017A522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */; };
 		03AA97452591C4BF0017A522 /* OptusWeatherInfoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97442591C4BF0017A522 /* OptusWeatherInfoAppTests.swift */; };
 		03AA97502591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA974F2591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift */; };
+		03AA97622591C5990017A522 /* OWAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA975E2591C5990017A522 /* OWAppConfig.swift */; };
+		03AA97632591C5990017A522 /* OWConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA975F2591C5990017A522 /* OWConstants.swift */; };
+		03AA97642591C5990017A522 /* OWToastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97602591C5990017A522 /* OWToastMessage.swift */; };
+		03AA97652591C5990017A522 /* OWColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97612591C5990017A522 /* OWColorExtention.swift */; };
+		03AA97692591C5C60017A522 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97672591C5C60017A522 /* ServiceManager.swift */; };
+		03AA976A2591C5C60017A522 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97682591C5C60017A522 /* DatabaseManager.swift */; };
+		03AA97702591C5F10017A522 /* DetailWeatherInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA976C2591C5F00017A522 /* DetailWeatherInfoViewController.swift */; };
+		03AA97722591C5F10017A522 /* WeatherInfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA976E2591C5F00017A522 /* WeatherInfoListViewController.swift */; };
+		03AA97732591C5F10017A522 /* AddNewCityInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA976F2591C5F00017A522 /* AddNewCityInfoViewController.swift */; };
+		03AA97782591C61C0017A522 /* AddNewCityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97752591C61C0017A522 /* AddNewCityTableCell.swift */; };
+		03AA97792591C61C0017A522 /* DetailWeatherInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97762591C61C0017A522 /* DetailWeatherInfoCell.swift */; };
+		03AA977A2591C61C0017A522 /* WeatherInfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97772591C61C0017A522 /* WeatherInfoTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,6 @@
 		03AA972A2591C4BD0017A522 /* OptusWeatherInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptusWeatherInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AA972D2591C4BD0017A522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03AA972F2591C4BD0017A522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03AA97312591C4BD0017A522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03AA97342591C4BD0017A522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03AA97362591C4BF0017A522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03AA97392591C4BF0017A522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		03AA974B2591C4BF0017A522 /* OptusWeatherInfoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptusWeatherInfoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AA974F2591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptusWeatherInfoAppUITests.swift; sourceTree = "<group>"; };
 		03AA97512591C4BF0017A522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AA975E2591C5990017A522 /* OWAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWAppConfig.swift; sourceTree = "<group>"; };
+		03AA975F2591C5990017A522 /* OWConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWConstants.swift; sourceTree = "<group>"; };
+		03AA97602591C5990017A522 /* OWToastMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWToastMessage.swift; sourceTree = "<group>"; };
+		03AA97612591C5990017A522 /* OWColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWColorExtention.swift; sourceTree = "<group>"; };
+		03AA97672591C5C60017A522 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		03AA97682591C5C60017A522 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		03AA976C2591C5F00017A522 /* DetailWeatherInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailWeatherInfoViewController.swift; sourceTree = "<group>"; };
+		03AA976E2591C5F00017A522 /* WeatherInfoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoListViewController.swift; sourceTree = "<group>"; };
+		03AA976F2591C5F00017A522 /* AddNewCityInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCityInfoViewController.swift; sourceTree = "<group>"; };
+		03AA97752591C61C0017A522 /* AddNewCityTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCityTableCell.swift; sourceTree = "<group>"; };
+		03AA97762591C61C0017A522 /* DetailWeatherInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailWeatherInfoCell.swift; sourceTree = "<group>"; };
+		03AA97772591C61C0017A522 /* WeatherInfoTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +123,9 @@
 			children = (
 				03AA972D2591C4BD0017A522 /* AppDelegate.swift */,
 				03AA972F2591C4BD0017A522 /* SceneDelegate.swift */,
-				03AA97312591C4BD0017A522 /* ViewController.swift */,
+				03AA976B2591C5E00017A522 /* Controller */,
+				03AA97662591C5A90017A522 /* Services */,
+				03AA975D2591C5740017A522 /* Utility */,
 				03AA97332591C4BD0017A522 /* Main.storyboard */,
 				03AA97362591C4BF0017A522 /* Assets.xcassets */,
 				03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */,
@@ -126,6 +150,47 @@
 				03AA97512591C4BF0017A522 /* Info.plist */,
 			);
 			path = OptusWeatherInfoAppUITests;
+			sourceTree = "<group>";
+		};
+		03AA975D2591C5740017A522 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				03AA975E2591C5990017A522 /* OWAppConfig.swift */,
+				03AA97612591C5990017A522 /* OWColorExtention.swift */,
+				03AA975F2591C5990017A522 /* OWConstants.swift */,
+				03AA97602591C5990017A522 /* OWToastMessage.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		03AA97662591C5A90017A522 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				03AA97682591C5C60017A522 /* DatabaseManager.swift */,
+				03AA97672591C5C60017A522 /* ServiceManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		03AA976B2591C5E00017A522 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03AA976F2591C5F00017A522 /* AddNewCityInfoViewController.swift */,
+				03AA976C2591C5F00017A522 /* DetailWeatherInfoViewController.swift */,
+				03AA976E2591C5F00017A522 /* WeatherInfoListViewController.swift */,
+				03AA97742591C60B0017A522 /* tableCell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03AA97742591C60B0017A522 /* tableCell */ = {
+			isa = PBXGroup;
+			children = (
+				03AA97752591C61C0017A522 /* AddNewCityTableCell.swift */,
+				03AA97762591C61C0017A522 /* DetailWeatherInfoCell.swift */,
+				03AA97772591C61C0017A522 /* WeatherInfoTableCell.swift */,
+			);
+			path = tableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +324,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03AA97322591C4BD0017A522 /* ViewController.swift in Sources */,
+				03AA976A2591C5C60017A522 /* DatabaseManager.swift in Sources */,
+				03AA97722591C5F10017A522 /* WeatherInfoListViewController.swift in Sources */,
 				03AA972E2591C4BD0017A522 /* AppDelegate.swift in Sources */,
 				03AA97302591C4BD0017A522 /* SceneDelegate.swift in Sources */,
+				03AA97702591C5F10017A522 /* DetailWeatherInfoViewController.swift in Sources */,
+				03AA97652591C5990017A522 /* OWColorExtention.swift in Sources */,
+				03AA97642591C5990017A522 /* OWToastMessage.swift in Sources */,
+				03AA97622591C5990017A522 /* OWAppConfig.swift in Sources */,
+				03AA97792591C61C0017A522 /* DetailWeatherInfoCell.swift in Sources */,
+				03AA977A2591C61C0017A522 /* WeatherInfoTableCell.swift in Sources */,
+				03AA97782591C61C0017A522 /* AddNewCityTableCell.swift in Sources */,
+				03AA97692591C5C60017A522 /* ServiceManager.swift in Sources */,
+				03AA97632591C5990017A522 /* OWConstants.swift in Sources */,
+				03AA97732591C5F10017A522 /* AddNewCityInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
