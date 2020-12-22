@@ -144,9 +144,7 @@
 				03AA97662591C5A90017A522 /* Services */,
 				03AA975D2591C5740017A522 /* Utility */,
 				03AA977B2591C7490017A522 /* LocalJSON */,
-				03AA97332591C4BD0017A522 /* Main.storyboard */,
 				03AA97362591C4BF0017A522 /* Assets.xcassets */,
-				03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */,
 				03AA973B2591C4BF0017A522 /* Info.plist */,
 			);
 			path = OptusWeatherInfoApp;
@@ -233,6 +231,8 @@
 		03AA97812591C7840017A522 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				03AA97332591C4BD0017A522 /* Main.storyboard */,
+				03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
