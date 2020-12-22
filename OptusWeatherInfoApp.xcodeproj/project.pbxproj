@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AA972E2591C4BD0017A522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA972D2591C4BD0017A522 /* AppDelegate.swift */; };
+		03AA97302591C4BD0017A522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA972F2591C4BD0017A522 /* SceneDelegate.swift */; };
+		03AA97322591C4BD0017A522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97312591C4BD0017A522 /* ViewController.swift */; };
+		03AA97352591C4BD0017A522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97332591C4BD0017A522 /* Main.storyboard */; };
+		03AA97372591C4BF0017A522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97362591C4BF0017A522 /* Assets.xcassets */; };
+		03AA973A2591C4BF0017A522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */; };
+		03AA97452591C4BF0017A522 /* OptusWeatherInfoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA97442591C4BF0017A522 /* OptusWeatherInfoAppTests.swift */; };
+		03AA97502591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA974F2591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AA97412591C4BF0017A522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AA97222591C4BD0017A522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AA97292591C4BD0017A522;
+			remoteInfo = OptusWeatherInfoApp;
+		};
+		03AA974C2591C4BF0017A522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AA97222591C4BD0017A522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AA97292591C4BD0017A522;
+			remoteInfo = OptusWeatherInfoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AA972A2591C4BD0017A522 /* OptusWeatherInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptusWeatherInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AA972D2591C4BD0017A522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AA972F2591C4BD0017A522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03AA97312591C4BD0017A522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03AA97342591C4BD0017A522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AA97362591C4BF0017A522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AA97392591C4BF0017A522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AA973B2591C4BF0017A522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AA97402591C4BF0017A522 /* OptusWeatherInfoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptusWeatherInfoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AA97442591C4BF0017A522 /* OptusWeatherInfoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptusWeatherInfoAppTests.swift; sourceTree = "<group>"; };
+		03AA97462591C4BF0017A522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AA974B2591C4BF0017A522 /* OptusWeatherInfoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptusWeatherInfoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AA974F2591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptusWeatherInfoAppUITests.swift; sourceTree = "<group>"; };
+		03AA97512591C4BF0017A522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AA97272591C4BD0017A522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA973D2591C4BF0017A522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA97482591C4BF0017A522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AA97212591C4BD0017A522 = {
+			isa = PBXGroup;
+			children = (
+				03AA972C2591C4BD0017A522 /* OptusWeatherInfoApp */,
+				03AA97432591C4BF0017A522 /* OptusWeatherInfoAppTests */,
+				03AA974E2591C4BF0017A522 /* OptusWeatherInfoAppUITests */,
+				03AA972B2591C4BD0017A522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AA972B2591C4BD0017A522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AA972A2591C4BD0017A522 /* OptusWeatherInfoApp.app */,
+				03AA97402591C4BF0017A522 /* OptusWeatherInfoAppTests.xctest */,
+				03AA974B2591C4BF0017A522 /* OptusWeatherInfoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AA972C2591C4BD0017A522 /* OptusWeatherInfoApp */ = {
+			isa = PBXGroup;
+			children = (
+				03AA972D2591C4BD0017A522 /* AppDelegate.swift */,
+				03AA972F2591C4BD0017A522 /* SceneDelegate.swift */,
+				03AA97312591C4BD0017A522 /* ViewController.swift */,
+				03AA97332591C4BD0017A522 /* Main.storyboard */,
+				03AA97362591C4BF0017A522 /* Assets.xcassets */,
+				03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */,
+				03AA973B2591C4BF0017A522 /* Info.plist */,
+			);
+			path = OptusWeatherInfoApp;
+			sourceTree = "<group>";
+		};
+		03AA97432591C4BF0017A522 /* OptusWeatherInfoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AA97442591C4BF0017A522 /* OptusWeatherInfoAppTests.swift */,
+				03AA97462591C4BF0017A522 /* Info.plist */,
+			);
+			path = OptusWeatherInfoAppTests;
+			sourceTree = "<group>";
+		};
+		03AA974E2591C4BF0017A522 /* OptusWeatherInfoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AA974F2591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift */,
+				03AA97512591C4BF0017A522 /* Info.plist */,
+			);
+			path = OptusWeatherInfoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AA97292591C4BD0017A522 /* OptusWeatherInfoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AA97542591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoApp" */;
+			buildPhases = (
+				03AA97262591C4BD0017A522 /* Sources */,
+				03AA97272591C4BD0017A522 /* Frameworks */,
+				03AA97282591C4BD0017A522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptusWeatherInfoApp;
+			productName = OptusWeatherInfoApp;
+			productReference = 03AA972A2591C4BD0017A522 /* OptusWeatherInfoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AA973F2591C4BF0017A522 /* OptusWeatherInfoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AA97572591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoAppTests" */;
+			buildPhases = (
+				03AA973C2591C4BF0017A522 /* Sources */,
+				03AA973D2591C4BF0017A522 /* Frameworks */,
+				03AA973E2591C4BF0017A522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AA97422591C4BF0017A522 /* PBXTargetDependency */,
+			);
+			name = OptusWeatherInfoAppTests;
+			productName = OptusWeatherInfoAppTests;
+			productReference = 03AA97402591C4BF0017A522 /* OptusWeatherInfoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AA974A2591C4BF0017A522 /* OptusWeatherInfoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AA975A2591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoAppUITests" */;
+			buildPhases = (
+				03AA97472591C4BF0017A522 /* Sources */,
+				03AA97482591C4BF0017A522 /* Frameworks */,
+				03AA97492591C4BF0017A522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AA974D2591C4BF0017A522 /* PBXTargetDependency */,
+			);
+			name = OptusWeatherInfoAppUITests;
+			productName = OptusWeatherInfoAppUITests;
+			productReference = 03AA974B2591C4BF0017A522 /* OptusWeatherInfoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AA97222591C4BD0017A522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Sachin;
+				TargetAttributes = {
+					03AA97292591C4BD0017A522 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					03AA973F2591C4BF0017A522 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 03AA97292591C4BD0017A522;
+					};
+					03AA974A2591C4BF0017A522 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 03AA97292591C4BD0017A522;
+					};
+				};
+			};
+			buildConfigurationList = 03AA97252591C4BD0017A522 /* Build configuration list for PBXProject "OptusWeatherInfoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AA97212591C4BD0017A522;
+			productRefGroup = 03AA972B2591C4BD0017A522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AA97292591C4BD0017A522 /* OptusWeatherInfoApp */,
+				03AA973F2591C4BF0017A522 /* OptusWeatherInfoAppTests */,
+				03AA974A2591C4BF0017A522 /* OptusWeatherInfoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AA97282591C4BD0017A522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA973A2591C4BF0017A522 /* LaunchScreen.storyboard in Resources */,
+				03AA97372591C4BF0017A522 /* Assets.xcassets in Resources */,
+				03AA97352591C4BD0017A522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA973E2591C4BF0017A522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA97492591C4BF0017A522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AA97262591C4BD0017A522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA97322591C4BD0017A522 /* ViewController.swift in Sources */,
+				03AA972E2591C4BD0017A522 /* AppDelegate.swift in Sources */,
+				03AA97302591C4BD0017A522 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA973C2591C4BF0017A522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA97452591C4BF0017A522 /* OptusWeatherInfoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA97472591C4BF0017A522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA97502591C4BF0017A522 /* OptusWeatherInfoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AA97422591C4BF0017A522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AA97292591C4BD0017A522 /* OptusWeatherInfoApp */;
+			targetProxy = 03AA97412591C4BF0017A522 /* PBXContainerItemProxy */;
+		};
+		03AA974D2591C4BF0017A522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AA97292591C4BD0017A522 /* OptusWeatherInfoApp */;
+			targetProxy = 03AA974C2591C4BF0017A522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AA97332591C4BD0017A522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AA97342591C4BD0017A522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AA97382591C4BF0017A522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AA97392591C4BF0017A522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AA97522591C4BF0017A522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03AA97532591C4BF0017A522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AA97552591C4BF0017A522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptusWeatherInfoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techM.OptusWeatherInfoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AA97562591C4BF0017A522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptusWeatherInfoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techM.OptusWeatherInfoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AA97582591C4BF0017A522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptusWeatherInfoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techM.OptusWeatherInfoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptusWeatherInfoApp.app/OptusWeatherInfoApp";
+			};
+			name = Debug;
+		};
+		03AA97592591C4BF0017A522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptusWeatherInfoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techM.OptusWeatherInfoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptusWeatherInfoApp.app/OptusWeatherInfoApp";
+			};
+			name = Release;
+		};
+		03AA975B2591C4BF0017A522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptusWeatherInfoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techM.OptusWeatherInfoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OptusWeatherInfoApp;
+			};
+			name = Debug;
+		};
+		03AA975C2591C4BF0017A522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptusWeatherInfoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = techM.OptusWeatherInfoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OptusWeatherInfoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AA97252591C4BD0017A522 /* Build configuration list for PBXProject "OptusWeatherInfoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AA97522591C4BF0017A522 /* Debug */,
+				03AA97532591C4BF0017A522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AA97542591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AA97552591C4BF0017A522 /* Debug */,
+				03AA97562591C4BF0017A522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AA97572591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AA97582591C4BF0017A522 /* Debug */,
+				03AA97592591C4BF0017A522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AA975A2591C4BF0017A522 /* Build configuration list for PBXNativeTarget "OptusWeatherInfoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AA975B2591C4BF0017A522 /* Debug */,
+				03AA975C2591C4BF0017A522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AA97222591C4BD0017A522 /* Project object */;
+}
